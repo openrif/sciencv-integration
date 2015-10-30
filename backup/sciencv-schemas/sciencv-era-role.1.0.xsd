@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://www.ncbi.nlm.nih.gov/sciencv" xmlns="http://www.ncbi.nlm.nih.gov/sciencv" xmlns:xs="http://www.w3.org/2001/XMLSchema"  elementFormDefault="qualified">
+
+    <xs:simpleType name="Role">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="TA"/>
+            <xs:enumeration value="KP"/>
+            <xs:enumeration value="PDA"/>
+            <xs:enumeration value="PI"/>
+            <xs:enumeration value="FEL"/>
+            <xs:enumeration value="CPI"/>
+            <xs:enumeration value="PDC"/>
+            <xs:enumeration value="GR"/>
+            <xs:enumeration value="UGS"/>
+            <xs:enumeration value="MPI"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="Award">
+        <xs:sequence>
+            <xs:element name="role" type="Role" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="applId" type="xs:int" use="required"/>
+    </xs:complexType>
+    
+    <xs:complexType name="User">
+        <xs:sequence>
+            <xs:element name="award" type="Award" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="eRA-Commons" type="xs:string" use="required"/>
+        <xs:attribute name="eRA-Person" type="xs:int" use="required"/>
+    </xs:complexType>
+
+    <xs:element name="users">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="user" type="User" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="count" type="xs:int" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>
