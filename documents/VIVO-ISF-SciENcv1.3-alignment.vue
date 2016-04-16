@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.3.0 concept-map (VIVO-ISF-SciENcv1.3-alignment.vue) 2016-04-16 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Sat Apr 16 03:20:37 PDT 2016 by whimar on platform Mac OS X 10.11.4 in JVM 1.8.0_74-b02 -->
+<!-- Do Not Remove: Saved date Sat Apr 16 14:15:59 PDT 2016 by whimar on platform Mac OS X 10.11.4 in JVM 1.8.0_74-b02 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="VIVO-ISF-SciENcv1.3-alignment.vue" created="1393354945662"
     x="0.0" y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1460802037858" size="34460"
+    <resource referenceCreated="1460841360006" size="34460"
         spec="/Users/whimar/git/sciencv-integration/documents/VIVO-ISF-SciENcv1.3-alignment.vue"
         type="1" xsi:type="URLResource">
         <title>VIVO-ISF-SciENcv1.3-alignment.vue</title>
@@ -76,7 +76,7 @@
         layerID="1" created="1455982783789" x="-550.871" y="-735.3334"
         width="152.0" height="146.48209" strokeWidth="2.0"
         autoSized="false" xsi:type="node">
-        <fillColor>#FF8000</fillColor>
+        <fillColor>#7F7F7F</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
@@ -502,8 +502,8 @@
         <ctrlPoint0 x="-355.3386" y="-38.85554" xsi:type="point"/>
     </child>
     <child ID="296" label="vivo:relatedBy" layerID="1"
-        created="1460800670111" x="-447.60016" y="-116.282715"
-        width="70.0" height="231.66577" strokeWidth="1.0"
+        created="1460800670111" x="-447.10016" y="-116.282715"
+        width="69.0" height="231.66577" strokeWidth="1.0"
         autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -531,7 +531,7 @@
     </child>
     <child ID="300" label="vivo:relatedBy" layerID="1"
         created="1460801008626" x="-310.6922" y="72.003845"
-        width="88.35608" height="79.753815" strokeWidth="1.0"
+        width="87.85608" height="79.753815" strokeWidth="1.0"
         autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -544,7 +544,7 @@
         <ctrlPoint0 x="-247.7723" y="125.79867" xsi:type="point"/>
     </child>
     <child ID="301"
-        label="VIVO-ISF 1.6/SciENcv 1.3&#xa;    &#xa;    &#xa;      High-Level Alignment&#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      DRAFT"
+        label="VIVO-ISF 1.6/SciENcv 1.3 High-Level Alignment DRAFT"
         layerID="1" created="1460801267172" x="-914.43896"
         y="-454.20135" width="296.0" height="92.0" strokeWidth="0.0"
         autoSized="false" xsi:type="text">
@@ -566,30 +566,21 @@
   &lt;/head&gt;
   &lt;body&gt;
     &lt;p color="#000000" style="color: #000000; text-align: center"&gt;
-      &lt;font style="font-size:18;"&gt;VIVO-ISF 1.6/SciENcv 1.3
-&lt;/font&gt;    &lt;/p&gt;
+      &lt;font style="font-size:18;"&gt;VIVO-ISF 1.6/SciENcv 1.3 &lt;/font&gt;
+    &lt;/p&gt;
     &lt;p color="#000000" style="color: #000000; text-align: center"&gt;
-      &lt;font style="font-size:18;"&gt;High-Level Alignment
-&lt;/font&gt;    &lt;/p&gt;
+      &lt;font style="font-size:18;"&gt;High-Level Alignment &lt;/font&gt;
+    &lt;/p&gt;
     &lt;p color="#000000" style="color: #000000; text-align: center"&gt;
-      &lt;font style="font-size:18;"&gt;
-&lt;/font&gt;    &lt;/p&gt;
+      
+    &lt;/p&gt;
     &lt;p color="#000000" style="color: #000000; text-align: center"&gt;
       &lt;font style="font-size:24;"&gt;DRAFT&lt;/font&gt;
     &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 </richText>
-        <label>VIVO-ISF 1.6/SciENcv 1.3
-    
-    
-      High-Level Alignment
-    
-    
-      
-    
-    
-      DRAFT</label>
+        <label>VIVO-ISF 1.6/SciENcv 1.3 High-Level Alignment DRAFT</label>
     </child>
     <child ID="302" label="New Text" layerID="1" created="1460801319838"
         x="-755.7723" y="-647.53467" width="148.0" height="26.0"
@@ -623,7 +614,7 @@
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/6a822fa280fd5714007fcd7edc120198</URIString>
     </layer>
-    <userZoom>0.75</userZoom>
+    <userZoom>0.48241660181894114</userZoom>
     <userOrigin x="-789.8292" y="-729.651"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
