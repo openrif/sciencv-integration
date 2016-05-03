@@ -1,14 +1,14 @@
-<!-- Tufts VUE 3.3.0 concept-map (SciENCV.schema.xsd1.3.vue) 2016-04-17 -->
+<!-- Tufts VUE 3.3.0 concept-map (SciENCV.schema.xsd1.3.vue) 2016-05-03 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Sun Apr 17 13:34:04 PDT 2016 by whimar on platform Mac OS X 10.11.4 in JVM 1.8.0_74-b02 -->
+<!-- Do Not Remove: Saved date Tue May 03 14:26:24 PDT 2016 by whimar on platform Mac OS X 10.11.4 in JVM 1.8.0_74-b02 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="SciENCV.schema.xsd1.3.vue" created="1460769104112" x="0.0"
     y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1460925244309" size="237683"
+    <resource referenceCreated="1462310784271" size="239885"
         spec="/Users/whimar/git/sciencv-integration/documents/SciENCV.schema.xsd1.3.vue"
         type="1" xsi:type="URLResource">
         <title>SciENCV.schema.xsd1.3.vue</title>
@@ -3271,7 +3271,7 @@
         </child>
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
-    <child ID="605" label="last update 2016-04-15" layerID="1"
+    <child ID="605" label="last update 2016-04-29" layerID="1"
         created="1460795486844" x="567.0434" y="377.72125" width="366.0"
         height="15.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
@@ -3292,12 +3292,12 @@
   &lt;/head&gt;
   &lt;body&gt;
     &lt;p style="text-align: right"&gt;
-      last update 2016-04-15
+      last update 2016-04-29
     &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 </richText>
-        <label>last update 2016-04-15</label>
+        <label>last update 2016-04-29</label>
     </child>
     <child ID="610"
         label="Interpretation of SciENcv schema version 1.3 for comparison to VIVO-ISF ontology Marijane White"
@@ -4118,11 +4118,41 @@
         <ctrlPoint0 x="490.26126" y="1024.1096" xsi:type="point"/>
         <ctrlPoint1 x="439.16272" y="950.1663" xsi:type="point"/>
     </child>
+    <child ID="698" layerID="1" created="1461692961984" x="-462.83887"
+        y="674.87366" width="239.70433" height="409.28662"
+        strokeWidth="1.0" autoSized="false" controlCount="2"
+        arrowState="2" xsi:type="link">
+        <strokeColor>#EEEEEE</strokeColor>
+        <textColor>#404040</textColor>
+        <font>Arial-plain-11</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/53b2c3d10a000119101c75237f0fa631</URIString>
+        <point1 x="-223.63454" y="675.37366"/>
+        <point2 x="-462.33887" y="1083.6603"/>
+        <ID1 xsi:type="node">194</ID1>
+        <ID2 xsi:type="node">556</ID2>
+        <ctrlPoint0 x="-323.51016" y="669.5248" xsi:type="point"/>
+        <ctrlPoint1 x="-302.59167" y="1080.1115" xsi:type="point"/>
+    </child>
+    <child ID="700" layerID="1" created="1461693026365" x="-462.83887"
+        y="685.53595" width="239.65651" height="398.92157"
+        strokeWidth="1.0" autoSized="false" controlCount="2"
+        arrowState="2" xsi:type="link">
+        <strokeColor>#EEEEEE</strokeColor>
+        <textColor>#404040</textColor>
+        <font>Arial-plain-11</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/53b2c3d10a000119101c75233bef5216</URIString>
+        <point1 x="-223.68236" y="686.03595"/>
+        <point2 x="-462.33887" y="1083.9575"/>
+        <ID1 xsi:type="node">195</ID1>
+        <ID2 xsi:type="node">556</ID2>
+        <ctrlPoint0 x="-321.34445" y="681.0944" xsi:type="point"/>
+        <ctrlPoint1 x="-290.97067" y="1081.5364" xsi:type="point"/>
+    </child>
     <layer ID="1" label="Layer 1" created="1460769104117" x="0.0"
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/1d9ab8ef0a0001190d29d61595d4dd35</URIString>
     </layer>
-    <userZoom>1.0578424506925275</userZoom>
+    <userZoom>1.0</userZoom>
     <userOrigin x="-866.4581" y="239.37442"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
