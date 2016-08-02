@@ -1,14 +1,14 @@
-<!-- Tufts VUE 3.3.0 concept-map (VIVO-ISF-SciENcv1.3-alignment.vue) 2016-04-16 -->
+<!-- Tufts VUE 3.3.0 concept-map (VIVO-ISF-SciENcv1.3-alignment.vue) 2016-07-28 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Sat Apr 16 14:15:59 PDT 2016 by whimar on platform Mac OS X 10.11.4 in JVM 1.8.0_74-b02 -->
+<!-- Do Not Remove: Saved date Thu Jul 28 13:13:53 PDT 2016 by whimar on platform Mac OS X 10.11.6 in JVM 1.8.0_91-b14 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="VIVO-ISF-SciENcv1.3-alignment.vue" created="1393354945662"
     x="0.0" y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1460841360006" size="34460"
+    <resource referenceCreated="1469736833762" size="34057"
         spec="/Users/whimar/git/sciencv-integration/documents/VIVO-ISF-SciENcv1.3-alignment.vue"
         type="1" xsi:type="URLResource">
         <title>VIVO-ISF-SciENcv1.3-alignment.vue</title>
@@ -45,8 +45,7 @@
         <ID2 xsi:type="node">125</ID2>
         <ctrlPoint0 x="-596.89307" y="-131.89105" xsi:type="point"/>
     </child>
-    <child ID="125"
-        label="vcard:Individual&#xa;scv:Identification&#xa;scv:Name"
+    <child ID="125" label="vcard:Individual&#xa;scv:Identification"
         layerID="1" created="1440622167072" x="-782.89307"
         y="-247.89105" width="130.0" height="128.0" strokeWidth="2.0"
         autoSized="false" xsi:type="node">
@@ -78,7 +77,7 @@
         autoSized="false" xsi:type="node">
         <fillColor>#7F7F7F</fillColor>
         <strokeColor>#000000</strokeColor>
-        <textColor>#000000</textColor>
+        <textColor>#FFFFFF</textColor>
         <font>Arial-plain-12</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ff828d4cc0a80499750dfdbf0852b0eb</URIString>
         <shape xsi:type="ellipse"/>
@@ -544,10 +543,9 @@
         <ctrlPoint0 x="-247.7723" y="125.79867" xsi:type="point"/>
     </child>
     <child ID="301"
-        label="VIVO-ISF 1.6/SciENcv 1.3 High-Level Alignment DRAFT"
-        layerID="1" created="1460801267172" x="-914.43896"
-        y="-454.20135" width="296.0" height="92.0" strokeWidth="0.0"
-        autoSized="false" xsi:type="text">
+        label="VIVO-ISF 1.6/SciENcv 1.3 High-Level Alignment"
+        layerID="1" created="1460801267172" x="-855.9782" y="-419.12494"
+        width="294.0" height="51.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-24</font>
@@ -571,16 +569,10 @@
     &lt;p color="#000000" style="color: #000000; text-align: center"&gt;
       &lt;font style="font-size:18;"&gt;High-Level Alignment &lt;/font&gt;
     &lt;/p&gt;
-    &lt;p color="#000000" style="color: #000000; text-align: center"&gt;
-      
-    &lt;/p&gt;
-    &lt;p color="#000000" style="color: #000000; text-align: center"&gt;
-      &lt;font style="font-size:24;"&gt;DRAFT&lt;/font&gt;
-    &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 </richText>
-        <label>VIVO-ISF 1.6/SciENcv 1.3 High-Level Alignment DRAFT</label>
+        <label>VIVO-ISF 1.6/SciENcv 1.3 High-Level Alignment</label>
     </child>
     <child ID="302" label="New Text" layerID="1" created="1460801319838"
         x="-755.7723" y="-647.53467" width="148.0" height="26.0"
@@ -614,7 +606,7 @@
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/6a822fa280fd5714007fcd7edc120198</URIString>
     </layer>
-    <userZoom>0.48241660181894114</userZoom>
+    <userZoom>0.9835391535043311</userZoom>
     <userOrigin x="-789.8292" y="-729.651"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
