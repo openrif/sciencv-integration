@@ -1,0 +1,239 @@
+@prefix ns1: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix scires: <http://vivoweb.org/ontology/scientific-research#> .
+@prefix ns2: <http://purl.org/net/OCRe/statistics.owl#> .
+@prefix ocresd: <http://purl.org/net/OCRe/study_design.owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns3: <http://www.w3.org/2008/05/skos#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vitro-public: <http://vitro.mannlib.cornell.edu/ns/vitro/public#> .
+@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns4: <http://purl.org/net/OCRe/study_protocol.owl#> .
+@prefix grddl: <http://www.w3.org/2003/g/data-view#> .
+@prefix ocrer: <http://purl.org/net/OCRe/research.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1bf3kg90mx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "6.xml" ;
+	km-dev:modelPublicationTime "1493697045526"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"profile\"},{\"columnName\":\"identification\"},{\"columnName\":\"name\"},{\"columnName\":\"givennames\"}],[{\"columnName\":\"profile\"},{\"columnName\":\"identification\"},{\"columnName\":\"name\"},{\"columnName\":\"surname\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"profile\"},{\"columnName\":\"identification\"},{\"columnName\":\"name\"},{\"columnName\":\"person uri\"}]]" ;
+	km-dev:hasModelLabel "6.xml" ;
+	km-dev:hasBaseURI "https://www.ncbi.nlm.nih.gov/cv/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"profile\"},
+                    {\"columnName\": \"identification\"},
+                    {\"columnName\": \"name\"},
+                    {\"columnName\": \"givennames\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"person uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"name = getValue(\\\"givennames\\\") + getValue(\\\"surname\\\")\\nreturn personNameUri(name)\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"profile\\\"},{\\\"columnName\\\":\\\"identification\\\"},{\\\"columnName\\\":\\\"name\\\"},{\\\"columnName\\\":\\\"givennames\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"profile\\\"},{\\\"columnName\\\":\\\"identification\\\"},{\\\"columnName\\\":\\\"name\\\"},{\\\"columnName\\\":\\\"surname\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"profile\\\"},{\\\"columnName\\\":\\\"identification\\\"},{\\\"columnName\\\":\\\"name\\\"},{\\\"columnName\\\":\\\"person uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"https://www.ncbi.nlm.nih.gov/cv/\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"profile\"},
+                    {\"columnName\": \"identification\"},
+                    {\"columnName\": \"name\"},
+                    {\"columnName\": \"person uri\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://xmlns.com/foaf/0.1/Person\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://xmlns.com/foaf/0.1/Person1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://xmlns.com/foaf/0.1/Person\",
+                    \"DomainId\": \"http://xmlns.com/foaf/0.1/Person1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"foaf:Person1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"profile\\\"},{\\\"columnName\\\":\\\"identification\\\"},{\\\"columnName\\\":\\\"name\\\"},{\\\"columnName\\\":\\\"person uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"profile\\\"},{\\\"columnName\\\":\\\"identification\\\"},{\\\"columnName\\\":\\\"name\\\"},{\\\"columnName\\\":\\\"person uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_b4b0c11f-d003-4884-a30a-83864da40df3 a rr:TriplesMap .
+
+_:node1bf3kg90mx1 km-dev:hasTriplesMap km-dev:TriplesMap_b4b0c11f-d003-4884-a30a-83864da40df3 .
+
+km-dev:TriplesMap_b4b0c11f-d003-4884-a30a-83864da40df3 km-dev:isPartOfMapping _:node1bf3kg90mx1 .
+
+_:node1bf3kg90mx2 rr:tableName "6.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1bf3kg90mx1 .
+
+_:node1bf3kg90mx1 km-dev:hasLogicalTable _:node1bf3kg90mx2 .
+
+km-dev:TriplesMap_b4b0c11f-d003-4884-a30a-83864da40df3 rr:logicalTable _:node1bf3kg90mx2 ;
+	rr:subjectMap _:node1bf3kg90mx3 .
+
+_:node1bf3kg90mx1 km-dev:hasSubjectMap _:node1bf3kg90mx3 .
+
+_:node1bf3kg90mx3 km-dev:isPartOfMapping _:node1bf3kg90mx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://xmlns.com/foaf/0.1/Person1" ;
+	rr:class foaf:Person ;
+	rr:template "{[\"profile\",\"identification\",\"name\",\"person uri\"]}" ;
+	a km-dev:steinerTreeRootNode .
